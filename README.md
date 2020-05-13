@@ -272,8 +272,215 @@ Narla
 
 ## Image
 
+# Bootstrap Alerts:
+ * Bootstrap Alerts are used to provide an easy way to create predefined alert messages. Alert adds a style to your messages to make it more appealing to the users.
+ * Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
 
+* Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight required contextual classes (e.g., .alert-success).
+ 
+ ## Example:
+ ```
+ <div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  This is a secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  This is a success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  This is a danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  This is a info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  This is a light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  This is a dark alert—check it out!
+</div>
+```
+## image
 
+* Alerts are created with the .alert class, followed by one of the contextual classes.
+## List of all contextual classes:
+    * .alert-success
+    * .alert-info
+    * .alert-warning
+    * .alert-danger
+    * .alert-primary
+    * .alert-secondary
+    * .alert-light
+    * .alert-dark
+# Code
+```
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Bootstrap Example</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>  
+</head>  
+<body>  
+  
+<div class="container">  
+  <h2>Alerts</h2>  
+  <div class="alert alert-success">  
+    <strong>Success!</strong> Used to indicate successful or positive action.  
+  </div>  
+  <div class="alert alert-info">  
+    <strong>Info!</strong> Used to indicate a neutral informative change or action.  
+  </div>  
+  <div class="alert alert-warning">  
+    <strong>Warning!</strong> Used to indicate a warning that might need attention.  
+  </div>  
+  <div class="alert alert-danger">  
+    <strong>Danger!</strong> Used to indicate a dangerous or potentially negative action.  
+  </div>  
+  <div class="alert alert-primary">  
+    <strong>Primary!</strong> Used to indicate an important action.  
+  </div>  
+  <div class="alert alert-secondary">  
+    <strong>Secondary!</strong> Used to indicate a slightly less important action.  
+  </div>  
+  <div class="alert alert-dark">  
+    <strong>Dark!</strong> Dark grey alert.  
+  </div>  
+  <div class="alert alert-light">  
+    <strong>Light!</strong> Light grey alert.  
+  </div>  
+</div>  
+  
+</body>  
+</html>
+```
+## Image
+## Link color:
+* Use the .alert-link utility class to quickly provide matching colored links within any alert.
+
+# Code
+```
+<div class="alert alert-primary" role="alert">
+  This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-secondary" role="alert">
+  This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-success" role="alert">
+  This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-danger" role="alert">
+  This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-info" role="alert">
+  This is a info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-light" role="alert">
+  This is a light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-dark" role="alert">
+  This is a dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+```
+## image
+## Additional content:
+* Alerts can also contain additional HTML elements like headings, paragraphs and dividers.
+
+## code:
+```
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+```
+## image
+## Dismissing:
+* Using the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:
+  * Be sure you’ve loaded the alert plugin, or the compiled Bootstrap JavaScript.
+  * If you’re building our JavaScript from source, it requires util.js. The compiled version includes this.
+  * Add a dismiss button and the .alert-dismissible class, which adds extra padding to the right of the alert and positions the .close button.
+  * On the dismiss button, add the data-dismiss="alert" attribute, which triggers the JavaScript functionality. Be sure to use the <button> element with it for proper behavior across all devices.
+
+## Code
+```
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+```
+## Animated Alerts:
+  * You can use .fade and .show classes to add a fading effect when closing the alert message.
+
+## Example:
+```
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <title>Bootstrap Example</title>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>  
+</head>  
+<body>  
+  
+<div class="container">  
+  <h2>Animated Alerts Example</h2>  
+  <div class="alert alert-success alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.  
+  </div>  
+  <div class="alert alert-info alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.  
+  </div>  
+  <div class="alert alert-warning alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.  
+  </div>  
+  <div class="alert alert-danger alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.  
+  </div>  
+  <div class="alert alert-primary alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Primary!</strong> Indicates an important action.  
+  </div>  
+  <div class="alert alert-secondary alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Secondary!</strong> Indicates a slightly less important action.  
+  </div>  
+  <div class="alert alert-dark alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Dark!</strong> Dark grey alert.  
+  </div>  
+  <div class="alert alert-light alert-dismissable fade show">  
+    <button type="button" class="close" data-dismiss="alert">×</button>  
+    <strong>Light!</strong> Light grey alert.  
+  </div>  
+</div>  
+</body>  
+</html>
+```
+## Image
 
 
 
