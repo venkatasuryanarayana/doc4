@@ -14,16 +14,19 @@
  * There are two container classes.
     * .container
     * .container-fluid
-  * The .container class provides a responsive fixed width container                                                                                                                 
+  * The .container class provides a responsive fixed width container
   
-  ```<div class="container">
+  ## Syntax:
+  
+  ```
+  <div class="container">
         <!-- Content here -->
      </div>
  ```
      
  ## Example for Container:
- 
- ```<!DOCTYPE html>
+ ```
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -48,16 +51,17 @@ Narla
 ## .Container fluid:
   * Use .container-fluid for a full width container, spanning the entire width of the viewport.
   
-## Syntax: 
-  
- ```<div class="container-fluid">
+## Syntax:
+
+```data
+<div class="container-fluid">
        ---content---
 </div>
 ```
 
 ## Example of container and container fluid:
-
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -102,7 +106,8 @@ Narla
   * The Inside container is used in jumbotron, if you want the jumbotron to not extend to the edge of the screen.
   * Put the jumbotron inside the <div class="container">.
   
-```<!DOCTYPE html>  
+```  
+<!DOCTYPE html>  
 <html lang="en">  
 <head>  
   <title>Bootstrap Example</title>  
@@ -127,11 +132,14 @@ Narla
 </html>
 ```
 ### image
+
 ## Jumbotron Outside Container:
 * It is used when you want the jumbotron to extend to the screen edges.
 * Put the jumbotron outside the <div class="container">.
- Example:
-```<!DOCTYPE html>  
+  
+ ### Example:
+```
+<!DOCTYPE html>  
 <html lang="en">  
 <head>  
   <title>Bootstrap Example</title>  
@@ -162,8 +170,9 @@ Narla
 * To get a jumbotron without rounded borders, you have to add the .jumbotron-fluid class and a .container or .container-fluid inside it.
 
   
-Example:
-```<!DOCTYPE html>  
+## Example:
+```
+<!DOCTYPE html>  
 <html lang="en">  
 <head>  
   <title>Bootstrap Example</title>  
