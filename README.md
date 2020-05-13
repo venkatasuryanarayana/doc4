@@ -45,8 +45,10 @@
 </html>
 ```
 O/P:
+```
 Surya
 Narla
+```
 
 ## .Container fluid:
   * Use .container-fluid for a full width container, spanning the entire width of the viewport.
@@ -95,7 +97,8 @@ Narla
   </body>
 </html>
 ```
-## Image
+## Output:
+<img src="/images/container.PNG" alt="container & container-fluid image">
 
 ## Bootstrap Jumbotron:
   * A Bootstrap jumbotron specifies a big box for getting extra attention to some special content or information. It is displayed as a grey box with rounded corners. It can also enlarge the font sizes of the text inside it.
@@ -131,7 +134,9 @@ Narla
 </body>  
 </html>
 ```
-### image
+### Output:
+<img src="/images/jamboinside.PNG" alt="Jumbotron Inside Container">
+
 
 ## Jumbotron Outside Container:
 * It is used when you want the jumbotron to extend to the screen edges.
@@ -164,7 +169,8 @@ Narla
 </body>  
 </html>
 ```
-### Image
+### Output:
+<img src="/images/jambooutside.PNG" alt="Jumbotron Outside Container">
 
 ## Full-width Jumbotron:
 * To get a jumbotron without rounded borders, you have to add the .jumbotron-fluid class and a .container or .container-fluid inside it.
@@ -199,7 +205,8 @@ Narla
 </body>  
 </html> 
 ```
-## Image
+### Output:
+<img src="/images/jambofullwidth.PNG" alt="Full-width Jumbotron">
 
 # Colors:
 * Convey meaning through color with a handful of color utility classes. Includes support for styling links with hover states, too.
@@ -218,8 +225,9 @@ Narla
 <p class="text-muted">.text-muted</p>
 <p class="text-white bg-dark">.text-white</p>
 ```
+### Output:
+<img src="/images/color1.PNG" alt="Colors">
 
-## image:
 
 * Contextual text classes also work well on anchors with the provided hover and focus states. Note that the .text-white and .text-muted class has no link styling.
 
@@ -236,7 +244,8 @@ Narla
 <p><a href="#" class="text-muted">Muted link</a></p>
 <p><a href="#" class="text-white bg-dark">White link</a></p>
 ```
-## image
+### Output:
+<img src="/images/linkcolor.PNG" alt="link Colors">
 
 ## Background color:
 * Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in some cases you’ll want to use .text-* utilities.
@@ -253,7 +262,8 @@ Narla
 <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
 <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
 ```
-## image
+### Output:
+<img src="/images/background.PNG" alt="background Colors">
 
 ## Background gradient:
 * When $enable-gradients is set to true, you’ll be able to use .bg-gradient- utility classes. By default, $enable-gradients is disabled and the example below is intentionally broken. This is done for easier customization from the moment you start using Bootstrap
@@ -270,7 +280,8 @@ Narla
 <div class="p-3 mb-2 bg-gradient-dark text-white">.bg-gradient-dark</div>
 ```
 
-## Image
+### Output:
+<img src="/images/gradientcolor.PNG" alt="gradientcolor Colors">
 
 # Bootstrap Alerts:
  * Bootstrap Alerts are used to provide an easy way to create predefined alert messages. Alert adds a style to your messages to make it more appealing to the users.
@@ -305,7 +316,9 @@ Narla
   This is a dark alert—check it out!
 </div>
 ```
-## image
+### Output:
+<img src="/images/alert.PNG" alt="alert text">
+
 
 * Alerts are created with the .alert class, followed by one of the contextual classes.
 ## List of all contextual classes:
@@ -363,7 +376,9 @@ Narla
 </body>  
 </html>
 ```
-## Image
+### Output:
+<img src="/images/contextual.PNG" alt="contextual Colors">
+
 ## Link color:
 * Use the .alert-link utility class to quickly provide matching colored links within any alert.
 
@@ -394,7 +409,9 @@ Narla
   This is a dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>
 ```
-## image
+### Output:
+<img src="/images/link-color.PNG" alt="link Colors">
+
 ## Additional content:
 * Alerts can also contain additional HTML elements like headings, paragraphs and dividers.
 
@@ -407,13 +424,17 @@ Narla
   <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 </div>
 ```
-## image
+### Output:
+<img src="/images/additional.PNG" alt="additional Colors">
 ## Dismissing:
 * Using the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:
   * Be sure you’ve loaded the alert plugin, or the compiled Bootstrap JavaScript.
   * If you’re building our JavaScript from source, it requires util.js. The compiled version includes this.
   * Add a dismiss button and the .alert-dismissible class, which adds extra padding to the right of the alert and positions the .close button.
   * On the dismiss button, add the data-dismiss="alert" attribute, which triggers the JavaScript functionality. Be sure to use the <button> element with it for proper behavior across all devices.
+  
+### Output:
+<img src="/images/dismiss.PNG" alt="dismiss"> 
 
 ## Code
 ```
@@ -480,7 +501,8 @@ Narla
 </body>  
 </html>
 ```
-## Image
+### Output:
+<img src="/images/animated.PNG" alt="animated Colors">
 
 
 
