@@ -433,8 +433,6 @@ Narla
   * Add a dismiss button and the .alert-dismissible class, which adds extra padding to the right of the alert and positions the .close button.
   * On the dismiss button, add the data-dismiss="alert" attribute, which triggers the JavaScript functionality. Be sure to use the <button> element with it for proper behavior across all devices.
   
-### Output:
-<img src="/images/dismiss.PNG" alt="dismiss"> 
 
 ## Code
 ```
@@ -445,6 +443,10 @@ Narla
   </button>
 </div>
 ```
+
+### Output:
+<img src="/images/dismiss.PNG" alt="dismiss"> 
+
 ## Animated Alerts:
   * You can use .fade and .show classes to add a fading effect when closing the alert message.
 
