@@ -34,9 +34,9 @@
   ### CSS:
   * Have to follow some steps to install this CDN in websites.
     ```
-    step 1: Open your website's **"index.html"** page.
-    step 2: you will see **<head>** tag in the nested of **<html>** tag.
-    step 3: **copy** this **CDN**
+    step 1: Open your website's "index.html" page.
+    step 2: you will see <head> tag in the nested of **<html>** tag.
+    step 3: copy this CDN
     step 4: Paste this CSS CDN in the top of </head> tag
     ```
   ### Online Links:
