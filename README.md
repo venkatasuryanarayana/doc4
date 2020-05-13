@@ -989,7 +989,7 @@ code:
  
  * Unless the context is clear (as with the “Notifications” example, where it is understood that the “4” is the number of notifications), consider including additional context with a visually hidden piece of additional text
 
-
+<img src="/Badge/Profile9.PNG" alt="image"/>
 
 ## Contextual variations:
 * Add any of the below mentioned modifier classes to change the appearance of a badge.
