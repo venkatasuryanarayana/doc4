@@ -39,8 +39,13 @@
     step 3: **copy** this **CDN**
     step 4: Paste this CSS CDN in the top of </head> tag
     ```
-     
+  ### Online Links:
   
+    ```
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    ```
+
   ### Javascript:
   * For pasting JavaScript in the body you have to follow bottom steps:
     ```
@@ -48,8 +53,31 @@
     Step 2: There you will see the body tag is closing. like </body>.
     Step 3: Copy the bottom scripts and past on the top of the </body> tag.
     ```
+    ### Links:
+    ```
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    ```
     
- ### Examples of using bootstrap CDN:
+ ### Example of using bootstrap CDN(Content Delivery Network):
+```
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Welcome to bootstrap</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
+```
  
  ## 2.Download Bootstrap for offline:
  * First Download CDN's Directory and use by following steps
@@ -103,7 +131,7 @@ Step 11:
   <body>
     <h1>Welcome to bootstrap</h1>
     
-    <script type="text/javascript" src="/js/bootstrap.min.css">
+    <script type="text/javascript" src="/js/bootstrap.min.js">
   </body>
 </html>
 ```
