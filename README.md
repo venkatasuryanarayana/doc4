@@ -199,6 +199,86 @@ Narla
 </body>  
 </html> 
 ```
+## Image
+
+# Colors:
+* Convey meaning through color with a handful of color utility classes. Includes support for styling links with hover states, too.
+
+## Text-color:
+
+```
+<p class="text-primary">.text-primary</p>
+<p class="text-secondary">.text-secondary</p>
+<p class="text-success">.text-success</p>
+<p class="text-danger">.text-danger</p>
+<p class="text-warning">.text-warning</p>
+<p class="text-info">.text-info</p>
+<p class="text-light bg-dark">.text-light</p>
+<p class="text-dark">.text-dark</p>
+<p class="text-muted">.text-muted</p>
+<p class="text-white bg-dark">.text-white</p>
+```
+
+## image:
+
+* Contextual text classes also work well on anchors with the provided hover and focus states. Note that the .text-white and .text-muted class has no link styling.
+
+## Code:
+```
+<p><a href="#" class="text-primary">Primary link</a></p>
+<p><a href="#" class="text-secondary">Secondary link</a></p>
+<p><a href="#" class="text-success">Success link</a></p>
+<p><a href="#" class="text-danger">Danger link</a></p>
+<p><a href="#" class="text-warning">Warning link</a></p>
+<p><a href="#" class="text-info">Info link</a></p>
+<p><a href="#" class="text-light bg-dark">Light link</a></p>
+<p><a href="#" class="text-dark">Dark link</a></p>
+<p><a href="#" class="text-muted">Muted link</a></p>
+<p><a href="#" class="text-white bg-dark">White link</a></p>
+```
+## image
+
+## Background color:
+* Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes. Background utilities do not set color, so in some cases you’ll want to use .text-* utilities.
+
+## Code:
+```
+<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+```
+## image
+
+## Background gradient:
+* When $enable-gradients is set to true, you’ll be able to use .bg-gradient- utility classes. By default, $enable-gradients is disabled and the example below is intentionally broken. This is done for easier customization from the moment you start using Bootstrap
+
+## Code:
+```
+<div class="p-3 mb-2 bg-gradient-primary text-white">.bg-gradient-primary</div>
+<div class="p-3 mb-2 bg-gradient-secondary text-white">.bg-gradient-secondary</div>
+<div class="p-3 mb-2 bg-gradient-success text-white">.bg-gradient-success</div>
+<div class="p-3 mb-2 bg-gradient-danger text-white">.bg-gradient-danger</div>
+<div class="p-3 mb-2 bg-gradient-warning text-dark">.bg-gradient-warning</div>
+<div class="p-3 mb-2 bg-gradient-info text-white">.bg-gradient-info</div>
+<div class="p-3 mb-2 bg-gradient-light text-dark">.bg-gradient-light</div>
+<div class="p-3 mb-2 bg-gradient-dark text-white">.bg-gradient-dark</div>
+```
+
+## Image
+
+
+
+
+
+
+
+
 
 
   
