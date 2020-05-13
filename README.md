@@ -846,7 +846,8 @@ code:
   <div class="progress-bar" style="width:70%"></div>
 </div>
 ```
-## Image
+<img src="/images/progressbar/basicprogressbar.PNG" alt="image"/>
+
 ## Progress Bar Height:
 * The height of the progress bar is 16px by default. Use the CSS height property to change it. Note that you must set the same height for the progress container and the progress bar:
 
@@ -856,7 +857,7 @@ code:
   <div class="progress-bar" style="width:40%;height:20px"></div>
 </div>
 ```
-## Image
+<img src="/images/progressbar/ProgressBarHeight.PNG" alt="image"/>
 
 ## Progress Bar Labels
 * Add text inside the progress bar to show the visible percentage:
@@ -867,8 +868,7 @@ code:
   <div class="progress-bar" style="width:70%">70%</div>
 </div>
 ```
-
-## Image
+<img src="/images/progressbar/ProgressBarLabel.PNG" alt="image"/>
 
 
 ## Colored Progress Bars:
@@ -922,7 +922,7 @@ code:
 </div>
 ```
 
-## image
+<img src="/images/progressbar/colorscrollbar.PNG" alt="image"/>
 
 
 ## Striped Progress Bars:
@@ -934,7 +934,7 @@ code:
   <div class="progress-bar progress-bar-striped" style="width:40%"></div>
 </div>
 ```
-## image
+<img src="/images/progressbar/StrippedProgressBar.PNG" alt="image"/>
 
 ## Animated Progress Bar
 * Add the .progress-bar-animated class to animate the progress bar:
@@ -944,7 +944,7 @@ code:
 `<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>`
 
 
-## image
+<img src="/images/progressbar/AnimatedProgressBar.PNG" alt="image"/>
 
 ## Multiple Progress Bars
 * Progress bars can also be stacked:
@@ -964,7 +964,7 @@ code:
 </div>
 ```
 
-
+<img src="/images/progressbar/MultipleProgressBar.PNG" alt="image"/>
 
 
 
