@@ -426,6 +426,7 @@ Narla
 ```
 ### Output:
 <img src="/images/additional.PNG" alt="additional Colors">
+
 ## Dismissing:
 * Using the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:
   * Be sure you’ve loaded the alert plugin, or the compiled Bootstrap JavaScript.
