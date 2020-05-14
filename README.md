@@ -1029,7 +1029,7 @@ code:
 <button type="button" class="btn btn-primary">Primary</button><button type="button" class="btn btn-secondary">Secondary</button><button type="button" class="btn btn-success">Success</button><button type="button" class="btn btn-danger">Danger</button><button type="button" class="btn btn-warning">Warning</button><button type="button" class="btn btn-info">Info</button><button type="button" class="btn btn-light">Light</button><button type="button" class="btn btn-dark">Dark</button>
 <button type="button" class="btn btn-link">Link</button>
 ```
-### image
+<img src="/Buttons/BasicButtonExample.PNG" alt="image"/>
 
 ## Disable text wrapping:
 * If you don’t want the button text to wrap, you can add the .text-nowrap class to the button. In Sass, you can set $btn-white-space: nowrap to disable text wrapping for each button.
@@ -1043,7 +1043,7 @@ code:
 ```
 <a class="btn btn-primary" href="#" role="button">Link</a><button class="btn btn-primary" type="submit">Button</button><input class="btn btn-primary" type="button" value="Input"><input class="btn btn-primary" type="submit" value="Submit"><input class="btn btn-primary" type="reset" value="Reset">
 ```
- ### image
+ <img src="/Buttons/ButtonTags.PNG" alt="image"/>
  
  ## Outline buttons:
  * In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the .btn-outline-* ones to remove all background images and colors on any button.
@@ -1052,7 +1052,7 @@ code:
  ```
  <button type="button" class="btn btn-outline-primary">Primary</button><button type="button" class="btn btn-outline-secondary">Secondary</button><button type="button" class="btn btn-outline-success">Success</button><button type="button" class="btn btn-outline-danger">Danger</button><button type="button" class="btn btn-outline-warning">Warning</button><button type="button" class="btn btn-outline-info">Info</button><button type="button" class="btn btn-outline-light">Light</button><button type="button" class="btn btn-outline-dark">Dark</button>
 ```
-### image
+<img src="/Buttons/OutlineButtons.PNG" alt="image"/>
 
 ## Button group
 * Group a series of buttons together on a single line
@@ -1067,7 +1067,8 @@ div class="btn-group" role="group" aria-label="Basic example">
   <button type="button" class="btn btn-secondary">Middle</button>
   <button type="button" class="btn btn-secondary">Right</button></div>
 ```
-### image
+
+<img src="/images/ButtonGroup/BasicExplain.PNG" alt="image"/>
 
 ### Sizing
 * nstead of applying button sizing classes to every button in a group, just add .btn-group-* to each .btn-group, including each one when nesting multiple groups.
@@ -1077,7 +1078,7 @@ Example:
 <div class="btn-group btn-group-lg" role="group" aria-label="...">...</div><div class="btn-group" role="group" aria-label="...">...</div><div class="btn-group btn-group-sm" role="group" aria-label="...">...</div
 ```
 
-### image
+<img src="/images/ButtonGroup/Sizing.PNG" alt="image"/>
 
 ### Nesting
 * Place a .btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons
@@ -1098,7 +1099,7 @@ Example:
   </div></div>
 ```
 
-### image
+<img src="/images/ButtonGroup/Nesting.PNG" alt="image"/>
 
 ## Vertical variation
 * Make a set of buttons appear vertically stacked rather than horizontally. Split button dropdowns are not supported here.
@@ -1111,8 +1112,7 @@ Example:
   ...</div>
 ```
 
-### image
-
+<img src="/images/ButtonGroup/VerticalVariation.PNG" alt="image"/>
 
 
 
