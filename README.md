@@ -1068,7 +1068,7 @@ div class="btn-group" role="group" aria-label="Basic example">
   <button type="button" class="btn btn-secondary">Right</button></div>
 ```
 
-<img src="/images/ButtonGroup/BasicExplain.PNG" alt="image"/>
+<img src="/images/ButtonGroup/BasicExample.PNG" alt="image"/>
 
 ### Sizing
 * nstead of applying button sizing classes to every button in a group, just add .btn-group-* to each .btn-group, including each one when nesting multiple groups.
