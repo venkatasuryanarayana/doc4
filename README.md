@@ -409,6 +409,36 @@ Narla
 ### Output:
 <img src="/images/background.PNG" alt="background Colors">
 
+m - sets margin
+
+p - sets padding
+
+ - for classes that set margin, like this :
+
+mt - for classes that set margin-top
+mb - for classes that set margin-bottom
+ml - for classes that set margin-left
+mr - for classes that set margin-right
+mx - for classes that set both margin-left and margin-right
+my - for classes that set both margin-top and margin-bottom
+
+0 - sets margin or padding to 0
+
+1 - sets margin or padding to .25rem (4px if font-size is 16px)
+
+2 - sets margin or padding to .5rem (8px if font-size is 16px)
+
+3 - sets margin or padding to 1rem (16px if font-size is 16px)
+
+4 - sets margin or padding to 1.5rem (24px if font-size is 16px)
+
+5 - sets margin or padding to 3rem (48px if font-size is 16px)
+
+
+
+
+auto - sets margin to auto
+
 ## Background gradient:
 * When $enable-gradients is set to true, you’ll be able to use .bg-gradient- utility classes. By default, $enable-gradients is disabled and the example below is intentionally broken. This is done for easier customization from the moment you start using Bootstrap
 
