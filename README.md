@@ -695,8 +695,9 @@ Grid Classes:
 There are four classes in Bootstrap Grid System:
   * xs(for phones)
   * sm(for tablets)
-  * md(for desktops)
+  * md(for laptops & smaller desktops)
   * lg(for larger desktops)
+  * xl(projectors)
   
 Bootstrap 4 Grid Classes:
 There are 5 classes in Bootstrap grid system.
